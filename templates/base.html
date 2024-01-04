@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Магаизн {% endblock %}</title>
+</head>
+<body>
+    <header><h2>Наш лучший магазин одежды</h2></header>
+    <nav>
+        <a href = "cloth.html">Одежда</a>
+        <a href = "jacket.html">Куртки</a>
+        <a href = "shoes.html">Обувь</a>
+        <a href = "index.html">Главная</a>
+    </nav>
+    {% block content %}странница не заполнена{% endblock %}
+    <footer>Все права защищены</footer>
+</body>
+</html>
